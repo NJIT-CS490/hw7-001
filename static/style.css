@@ -18,3 +18,23 @@ img {
     border: 10px solid #CC0000;
     border-radius: 25px;
 }
+
+footer.footer-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    background-image: linear-gradient(290deg,#d11717,#e00e1f 35%,#dd152d 51%,#750d42);
+    box-shadow: 0 10px 32px 0 rgba(0,0,0,0.2);
+}
+.address-wrapper ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-item: center;
+}
+.address-wrapper ul li {
+    list-style-type: none;
+    margin: .1rem;
+}
