@@ -4,6 +4,12 @@ body {
     padding: 0px;
 }
 
+.links {
+    font-family: Helvetica;
+    font-size: 20;
+    text-align: center;
+}
+
 .title {
     background-color: #071D49;
     color: #FFFFFF;
