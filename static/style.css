@@ -13,3 +13,8 @@ body {
     margin: 0px;
     margin-bottom: 2em;
 }
+
+img {
+    border: 10px solid #CC0000;
+    border-radius: 25px;
+}
