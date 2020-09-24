@@ -2,13 +2,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="icon" href="https://www.njit.edu/favicon.ico" />
         <link rel="stylesheet" href="\static\style.css" />
          <script type="text/javascript">
-        function popup() {
-            alert("Welcome to NJIT's page");
+        // function popup() {
+        //     alert("Welcome to NJIT's page");
+        // }
+        // window.onload = popup;
+        function sendEmail() {
+            alert("Thank you for signin up for notifications!")
         }
-        window.onload = popup;
         </script>
     </head>
     <body>
@@ -24,11 +28,27 @@
             </ul>
             <br>
         </header>
-        <main>
-            <a href="https://en.wikipedia.org/wiki/Eberhardt_Hall,_New_Jersey_Institute_of_Technology">
-            <img  height="400" width="640" src='https://www.njithighlanders.com/images/2020/9/4/Eberhardt_Hall_.jpeg?width=1440&height=810&mode=crop' alt="NJIT's Historic Eberhardt Hall"/>
-            </a>
-        </main>
+        <div class="container">
+            <main>
+                <a href="https://en.wikipedia.org/wiki/Eberhardt_Hall,_New_Jersey_Institute_of_Technology">
+                <img  height="400" width="640" src='https://www.njithighlanders.com/images/2020/9/4/Eberhardt_Hall_.jpeg?width=1440&height=810&mode=crop' alt="NJIT's Historic Eberhardt Hall"/>
+                </a>
+            </main>
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4" style="margin-top: 20px; text-align: left;">
+                    <p>Sign up for email notifications!</p>
+                    <form id="form-edit">
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-danger" onclick="sendEmail()">Submit</button>
+                      </form>
+                </div>
+            </div>
+        </div>
         <footer class="footer-container">
             <div class="address-wrapper">
                 <ul>

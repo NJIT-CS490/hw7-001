@@ -13,10 +13,16 @@ body {
 
 .links:hover {
     border-bottom:black 1px solid;
-    color:black
+    color:lightcoral;
 }
 
+header {
+    margin-top: 0;
+}
 
+#form-edit {
+    text-align: left;
+}
 
 .title {
     background-color: #071D49;
