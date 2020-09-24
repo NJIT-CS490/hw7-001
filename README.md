@@ -18,8 +18,5 @@ python main.py
 ## New Features to Add:
 [ ] Background image  
 [ ] Maybe some cool gifs
-<<<<<<< HEAD
 [ ] Have the image change every few seconds
-=======
 * Links to the resources in the syllabus
->>>>>>> dev
