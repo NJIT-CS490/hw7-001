@@ -12,7 +12,6 @@ body {
 }
 
 .links:hover {
-    border-bottom:black 1px solid;
     color:lightcoral;
 }
 
