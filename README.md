@@ -6,6 +6,9 @@
 
 ## Set-up 
 1. Clone this git repo using git clone 
+```bash
+git clone https://github.com/NJIT-CS490/hw7-001
+```
 2. Install dependencies
 ```bash
 pip install flask
