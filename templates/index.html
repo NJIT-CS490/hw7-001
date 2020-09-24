@@ -11,8 +11,16 @@
         }
         window.onload = popup;
         function sendEmail() {
-            alert("Thank you for signin up for notifications!")
+            alert("Thank you for signin up for notifications!");
         }
+        var middle_images = ['static/skybridge.jpg', 'static/theboys.jpg', 'static/njitwec.jpg', 'https://www.njithighlanders.com/images/2020/9/4/Eberhardt_Hall_.jpeg?width=1440&height=810&mode=crop'];
+        var count = 0;
+        setInterval(function(){
+            if (count >= middle_images.length) count = 0;
+            var img_source = middle_images[count];
+            document.getElementById('mid-image').src = img_source;
+            count++;
+        },2000);
         </script>
         <a href="https://www.njit.edu/">
             <img style="float: right; margin: 0px 15px 15px 0px;" src="static/njitLogo.jpg" width="190" height="80" />
@@ -37,7 +45,7 @@
         <div class="container">
             <main>
                 <a href="https://en.wikipedia.org/wiki/Eberhardt_Hall,_New_Jersey_Institute_of_Technology">
-                <img  height="400" width="640" src='https://www.njithighlanders.com/images/2020/9/4/Eberhardt_Hall_.jpeg?width=1440&height=810&mode=crop' alt="NJIT's Historic Eberhardt Hall" class="image1"/>
+                <img  id="mid-image" height="400" width="640" src='https://www.njithighlanders.com/images/2020/9/4/Eberhardt_Hall_.jpeg?width=1440&height=810&mode=crop' alt="NJIT's Historic Eberhardt Hall" class="image1"/>
                 
                 </a>
             </main>
