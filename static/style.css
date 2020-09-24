@@ -1,7 +1,7 @@
 body {
     font-family: Helvetica;
     text-align: center;
-    padding: 0px;
+    overflow: hidden;
 }
 
 .links {
@@ -26,21 +26,32 @@ img {
 }
 
 footer.footer-container {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     display: flex;
     justify-content: center;
     width: 100%;
     color: white;
     background-image: linear-gradient(290deg,#d11717,#e00e1f 35%,#dd152d 51%,#750d42);
     box-shadow: 0 10px 32px 0 rgba(0,0,0,0.2);
+    
 }
 .address-wrapper ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-item: center;
+    margin-right: 2em;
 }
 .address-wrapper ul li {
     list-style-type: none;
     margin: .1rem;
+}
+
+.slogan {
+    margin-left: 2em;
+}
+
+img {
+    margin-top: 2em;
 }
