@@ -14,6 +14,10 @@ pip install flask
 ```bash
 python main.py
 ```
+## About and Core Features
+All inclusive website that has helpful NJIT Information 
+Course Builder pick your courses with ease 
+Insights for Prospective Employeers and Students 
 
 ## New Features to Add:
 [ ] Background image  
