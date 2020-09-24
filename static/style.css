@@ -23,6 +23,9 @@ body {
 img {
     border: 10px solid #CC0000;
     border-radius: 25px;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
 }
 
 footer.footer-container {
