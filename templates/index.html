@@ -19,6 +19,8 @@
             if (count >= middle_images.length) count = 0;
             var img_source = middle_images[count];
             document.getElementById('mid-image').src = img_source;
+            document.getElementById('mid-image').style.height = "400px";
+            document.getElementById('mid-image').style.width = "640px";
             count++;
         },2000);
         </script>
