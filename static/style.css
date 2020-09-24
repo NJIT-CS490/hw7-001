@@ -8,7 +8,15 @@ body {
     font-family: Helvetica;
     font-size: 20;
     text-align: center;
+    margin-bottom: 20px;
 }
+
+.links:hover {
+    border-bottom:black 1px solid;
+    color:black
+}
+
+
 
 .title {
     background-color: #071D49;
