@@ -52,6 +52,8 @@ header {
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  background-color: #bd1506;
+  border-radius: 12px;
 }
 
 .horizontal_links li a:hover {
