@@ -15,4 +15,4 @@ python main.py
 ## New Features to Add:
 [ ] Background image  
 [ ] Maybe some cool gifs
-[ ] Have the imange change every few seconds
+[ ] Have the image change every few seconds
