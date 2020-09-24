@@ -2,6 +2,7 @@ body {
     font-family: Helvetica;
     text-align: center;
     overflow: hidden;
+    /*background-color:#5c5c5c;*/
 }
 
 .links {
@@ -59,9 +60,15 @@ header {
   background-color: #111111;
 }
 
-img {
+.image1 {
     border: 10px solid #CC0000;
     border-radius: 25px;
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+}
+
+.image2 {
     width: 100%;
     max-width: 750px;
     height: auto;
