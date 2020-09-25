@@ -10,6 +10,7 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: 1s;
 }
 
 .links:hover {
