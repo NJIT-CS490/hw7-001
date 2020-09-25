@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import flask
 import os
 import random
 =======
 import flask,os,random
 >>>>>>> 464601109f17a12ff618ba26c93df8960c343362
+=======
+import flask,os,random
+>>>>>>> wesSetup
 
 app = flask.Flask(__name__)
 
