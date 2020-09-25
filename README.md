@@ -25,5 +25,5 @@ Insights for Prospective Employeers and Students
 ## New Features to Add:
 [ ] Background image  
 [ ] Maybe some cool gifs
-[ ] Have the image change every few seconds
+[✓] Have the image change every few seconds
 * Links to the resources in the syllabus
