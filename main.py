@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import flask
 import os
 import random
+=======
+import flask,os,random
+>>>>>>> 464601109f17a12ff618ba26c93df8960c343362
 
 app = flask.Flask(__name__)
 
