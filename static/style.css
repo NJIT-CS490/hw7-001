@@ -32,34 +32,42 @@ header {
     padding-bottom: 5px;
     width: 100%;
     margin: 0px;
-    margin-bottom: 2em;
 }
 
-.horizontal_links {
+.navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-}
+  position:sticky;
+  padding-left: 125px;
+  padding-right: 125px;
+  
 
-.horizontal_links li {
+}
+.navbar-header {
+   z-index: 100;
+}
+.navbar li {
   float: left;
-  margin-left: 150px;
 }
 
-.horizontal_links li a {
+.navbar li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 16px;
+  padding: 8px;
   text-decoration: none;
-  background-color: #bd1506;
+  background-color: #333333;
   border-radius: 12px;
 }
 
-.horizontal_links li a:hover {
+.navbar li a:hover {
   background-color: #111111;
+}
+.navbar ul {
+  margin-left: auto;
 }
 
 .image1 {
@@ -150,4 +158,10 @@ footer.footer-container {
 
 img {
     margin-top: 2em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
