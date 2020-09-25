@@ -1,23 +1,17 @@
 body {
     font-family: Helvetica;
     text-align: center;
-<<<<<<< HEAD
     overflow: auto;
-=======
     overflow: scroll;
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
 }
-
 .links {
     font-family: Helvetica;
     font-size: 20;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-<<<<<<< HEAD
-=======
     transition: 1s;
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
+
 }
 
 .links:hover {
@@ -40,22 +34,23 @@ header {
     padding-bottom: 5px;
     width: 100%;
     margin: 0px;
-<<<<<<< HEAD
     margin-bottom: 2em;
 }
 
 .horizontal_links {
-=======
-}
-
-.navbar {
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333333;
-<<<<<<< HEAD
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 .horizontal_links li {
@@ -75,8 +70,6 @@ header {
 
 .horizontal_links li a:hover {
   background-color: #111111;
-}
-=======
   position:sticky;
   padding-left: 125px;
   padding-right: 125px;
@@ -106,7 +99,6 @@ header {
 .navbar ul {
   margin-left: auto;
 }
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
 
 .image1 {
     border: 10px solid #CC0000;
@@ -168,10 +160,7 @@ header {
 
 footer.footer-container {
     position: absolute;
-<<<<<<< HEAD
     bottom: 0;
-=======
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
     display: flex;
     justify-content: center;
     width: 100%;
@@ -201,7 +190,6 @@ footer.footer-container {
 img {
     margin-top: 2em;
 }
-<<<<<<< HEAD
 #viewmode {
   position: absolute;
   width: 100%;
@@ -220,11 +208,10 @@ img {
   width: 20%;
   position: fixed;
   overflow-y: auto;
-=======
+}
 
 .navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
->>>>>>> 464601109f17a12ff618ba26c93df8960c343362
 }
