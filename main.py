@@ -1,6 +1,4 @@
-import flask
-import os
-import random
+import flask,os,random
 
 app = flask.Flask(__name__)
 
